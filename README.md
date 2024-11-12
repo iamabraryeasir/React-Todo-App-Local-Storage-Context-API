@@ -59,16 +59,17 @@ React-Todo-App-Local-Storage-Context-API/
 ├── public/
 ├── src/
 │   ├── components/
-|   |   |-- index.js
-│   │   ├── TodoForm.jsx
-│   │   └── TodoItem.jsx
-|   |-- contexts/
-|   |   |-- index.js
-|   |   |-- TodoContext.js
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
+│   │   ├── index.js              # Exports components
+│   │   ├── TodoForm.jsx          # Form for adding/updating to-dos
+│   │   └── TodoItem.jsx          # Displays individual to-do items
+│   ├── contexts/
+│   │   ├── index.js              # Exports context
+│   │   └── TodoContext.js        # Context and provider for to-do state
+│   ├── App.jsx                   # Main app component
+│   ├── main.jsx                  # Entry point for React
+│   └── index.css                 # Styles for the app
 └── package.json
+
 ```
 
 Enjoy the app and happy coding! 🎉
